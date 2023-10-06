@@ -1,20 +1,20 @@
 import type { MemberObject } from '../types';
 import { profileMasks } from '../flare';
 
-export const bekahhw: MemberObject = {
+export const mikestreety: MemberObject = {
 	// GitHub username (required)
-	github: 'bekahhw',
+	github: 'mikestreety',
 	//
 	// Everything below here is optional. By default, we pull most profile data from your GitHub profile. You can override that data here, as well as provide some additional account links below.
 	//
 	// Name - If not defined here, it will default to your display name on GitHub. If that's not defined, then your GitHub username.
-	// name: 'Your Name',
+	// name: 'Mike Street',
 	//
 	// Main URL - If not defined here, it will default to the website displayed on your GitHub profile. If that's not defined, then a link to your GitHub profile will be displayed.
 	// mainUrl: 'https://virtualcoffee.io',
-	//
+
 	// Bio - Accepts [markdown](https://spec.commonmark.org/0.30/). Please keep your bio to a reasonable length. Refer to our [members page](https://virtualcoffee.io/members/) for examples.
-	// bio: `This is _my_ **bio** and [here is a link](https://virtualcoffee.io)`,
+	bio: `CTO at [Liquid Light](https://www.liquidlight.co.uk/), cyclist, beer reviewer & side-projectaholic`,
 	//
 	// flare - If you want to add a flare to your profile, you can do so here.
 	// Uncomment the `import { profileMasks } from '../flare';` line at the top of this file to use the profileMasks.
@@ -31,25 +31,26 @@ export const bekahhw: MemberObject = {
 	//
 	// Links - You can add one of each type, except website - you can add as many `website` accounts as you wish.
 	accounts: [
-		{ type: 'linkedin', username: 'bekah-hawrot-weigel' },
-		{ type: 'dev', username: 'bekahhw' },
-		// { type: 'codenewbie', username: 'bekahhw' },
-		{ type: 'twitter', username: 'bekahhw' },
-		{ type: 'twitch', username: 'bekahhw' },
-		{ type: 'youtube', channelId: 'UCyQMaTyYIcq4npG26u6Z2Fg' },
-		//  { type: 'youtube', customUrl: 'https://www.youtube.com/c/yourCustomUrl' },
-		// { type: 'polywork', username: 'bekahhw' },
+		{ type: 'linkedin', username: 'mikestreety' },
+		// { type: 'dev', username: 'yourUserName' },
+		// { type: 'codenewbie', username: 'yourUserName' },
+		// { type: 'twitter', username: 'yourUserName' },
+		// { type: 'twitch', username: 'yourUserName' },
+		// { type: 'youtube', channelId: 'yourChannelId' }, OR { type: 'youtube', customUrl: 'https://www.youtube.com/c/yourCustomUrl' },
+		// { type: 'polywork', username: 'yourUserName' },
+		// { type: 'medium', username: 'yourUserName' },
 		// { type: 'hashnode', username: 'yourUserName' },
 		{
 			type: 'website',
-			url: 'https://bekahhw.github.io',
-			title: `Code. Community. Feelings. It's all here`,
+			url: 'https://hachyderm.io/@mikestreety',
+			title: 'Mastodon',
 		},
 	],
-	badges: ['Hacktoberfest2022', 'Hacktoberfest2023'],
+	badges: ['Hacktoberfest2023'],
+
 	location: {
-		latitude: 40.375059,
-		longitude: -80.947491,
-		title: 'Eastern, Ohio', // optional
+		latitude: 50.822529,
+		longitude: -0.137163,
+		title: 'Brighton, UK', // optional
 	},
 };
